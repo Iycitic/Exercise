@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    height: 320px;
+    width: 100%;
+    background: #555555;
+}
+.footer p{
+    margin: 0 15px 0 0;
+    font-size: 12px;
+    color: #999999;
+    height: 12px;
+    line-height: 12px;
+    float: left;    
+}
+.footer a{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 12px;
+    color: #999999;
+    height: 12px;
+    line-height: 12px;
+    text-decoration: none;  
+    overflow:hidden; 
+    float: left;
+}
+.footer-top{
+    margin: 0 142px 0 142px;
+    padding-top:25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #999999;
+}
+.footer-mid{
+    margin: 0 142px 0 142px;
+    height: 95px;
+    border-bottom: 1px solid #999999;    
+}
+.footer-mid-left{
+    float: left;
+}
+.footer-mid-first p,.footer-mid-first a{
+    padding-top: 20px; 
+}
+.logo-icon img{
+    padding-top: 25px;
+    padding-left: 15px;
+    height: 25px;
+    width: 25px;
+    float: left;
+}
+.footer-mid-second p,.footer-mid-second a{
+    padding: 30px 10px 0 0;
+}
+.footer-mid-right{
+    padding-top: 15px;
+    float: right;
+}
+.footer-mid-right p,.footer-mid-right span{
+    float: right;
+}
+.footer-mid-right span{
+    font-size: 25px;
+    color: #999999;
+}

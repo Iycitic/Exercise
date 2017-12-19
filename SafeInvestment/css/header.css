@@ -1,0 +1,45 @@
+.header{
+    height: 30px;
+    width: 100%;
+    background: #555555;
+}
+.header a{
+    color: #cccccc;
+    text-decoration: none;
+    height:30px;   
+    line-height:30px;   
+    overflow:hidden;  
+}
+.header-top{
+    margin: 0 auto;
+    width: 1264px;
+}
+.top{
+    height: 30px;
+    width: 100%;
+
+}
+.top-left{
+    margin: 0 0 0 140px;
+    float: left;
+    height:30px;   
+    line-height:30px;   
+    overflow:hidden; 
+}
+.top-right{
+    margin: 0 120px 0 0;
+}
+.top-right ul li{
+    margin: 0 0 0 20px;
+    list-style-type:none;
+    float: right;
+    width: 80px;
+    position: relative;
+    top:25%;
+    border-right: 1px solid #999999;
+}
+.top-right li:first-child,.top-right li:last-child{
+    border-right: 0;               
+}
+
+
