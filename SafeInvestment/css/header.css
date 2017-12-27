@@ -19,6 +19,13 @@
     width: 100%;
 
 }
+.top a,.top span{
+    font-size: 14px;
+    color: #cccccc;
+}
+#yellow a{
+    color: #f3843f;
+}
 .top-left{
     margin: 0 0 0 140px;
     float: left;

@@ -7,10 +7,7 @@
     height: auto;
     background:#ffffff;
 }
-.wp{
-    margin: 0 auto;
-    width: 1264px;
-}
+
 .nav{
     margin: 0 auto;
     height: 98px;
@@ -50,31 +47,19 @@
     line-height:118px; 
 }
 .Image-Carousel{
-    /*position: absolute;*/
     width:1264px;
     height:324px;
-    overflow: hidden;
-    border-radius:5px;
-}
-/*
-#photos img {  
-    float: left;  
-    width:1264px;  
-    height:324px;  
-} 
-#photos{
-    position: absolute;
-    z-index:9px;  
-    width: calc(300px * 3);
+    background-image: url(".\image\Image-Carousel-01.png");
 }
 .play{
-    animation: ma 5s ease-out infinite alternate;
+    margin-top: 35px;
+    margin-right: 150px;
+    float: right;
+    border: 1px solid #ffffff;  
+    border-radius:5px;
 }
-@keyframes ma {
-    0%,50% {    margin-left: 0px;}
-    50%,100% {  margin-left: -1264px;}  
-}
-*/
+
+
 .main-header-mid{
     margin: 0 auto;
     height: 60px;
@@ -198,7 +183,7 @@
     color: #e95849;
     margin-left: 20px;
 }
-.main-body-show-content-right-mid ul li span:last-child{
+.main-body-show-content-right-mid ul li:last-child span{
     color: #b8984c;
 }
 .main-body-show-content-right-footer{
@@ -271,6 +256,10 @@
     border-collapse:collapse;
 
 }
+#customers span{
+    font-family: Youyuan;
+    color: #ffffff;
+}
 #customers tr,#customers td{
     font-size: 14px;
     border-bottom: 2px solid #f7f7f7;
@@ -289,6 +278,14 @@
     position: relative;
     left: 40px;
     float: left;
+}
+.td-float p{
+    position: relative;
+    left: 50px;
+    white-space:nowrap; 
+    width:75px; 
+    overflow:hidden;  
+    text-overflow: ellipsis;
 }
 .main-body-Cooperation{
     margin: 35px 142px 62px 142px;
